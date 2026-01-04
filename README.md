@@ -30,3 +30,18 @@ Input (code)
     }
     return 0;
     }
+# Q3. Write a C++ program to print all numbers from 1 to n, where n is a number entered by the user.
+Input (code)
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+    cout << i << " ";
+    }
+    return 0;
+    }

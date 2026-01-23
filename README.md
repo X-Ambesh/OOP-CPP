@@ -1,9 +1,5 @@
 # Object-oriented-programing-with-c++
 # Q1. Write a C++ program that takes two integers as input from the user and displays their sum.
-a. Sum if two numbers
-
-Input (code)
-
     #include <iostream>
     int main(){
     int a,b,c;
@@ -14,8 +10,6 @@ Input (code)
     return 0;
     }
 # Q2. Write a C++ program to check whether a given number is even or odd.
-Input (code)
-
     #include <iostream>
     int main()
     {
@@ -31,8 +25,6 @@ Input (code)
     return 0;
     }
 # Q3. Write a C++ program to print all numbers from 1 to n, where n is a number entered by the user.
-Input (code)
-
     #include <iostream>
     using namespace std;
 
@@ -44,4 +36,25 @@ Input (code)
     cout << i << " ";
     }
     return 0;
+    }
+# Q4. To print sum of n natural numbers
+    #include <iostream>
+    using namespace std;
+    
+    int main(int argc, char *argv[])
+    {
+        int n, sum = 0;
+    
+        if (argc > 1)
+            n = atoi(argv[1]);
+        else {
+            cout << "Enter n: ";
+            cin >> n;
+        }
+    
+        for (int i = 1; i <= n; i++)
+            sum += i;
+    
+        cout << "Sum = " << sum;
+        return 0;
     }

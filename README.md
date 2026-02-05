@@ -58,7 +58,7 @@
         cout << "Sum = " << sum;
         return 0;
     }
-# WAP to swap to values 
+# WAP to swap two values 
     #include <iostream>
     void swap(std::string &a, std::string &b){
         std::string temp;

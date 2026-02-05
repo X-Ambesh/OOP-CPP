@@ -58,3 +58,22 @@
         cout << "Sum = " << sum;
         return 0;
     }
+# WAP to swap to values 
+    #include <iostream>
+    void swap(std::string &a, std::string &b){
+        std::string temp;
+        temp=a;
+        a=b;
+        b=temp;
+    }
+    int main(){
+    std::string x = "Kool aid";
+    std::string y = "Water";
+    std::string temp;
+    swap(x,y);
+    std::cout<<x <<"\n";
+    std::cout<<y <<"\n";
+    }
+## Outuput
+    Water
+    Kool aid

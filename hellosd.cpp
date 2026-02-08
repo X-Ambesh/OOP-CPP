@@ -1,11 +1,13 @@
 #include <iostream>
-
-int main(){
-    double r =10;
-    double area = 3.14159 * r * r;
-    std::cout << "Area of circle with radius " << r << " is " << area << std::endl;
-
+using namespace std;
+int main() {
+   int a;
+   int sum = 0;
+   cout << "Enter a number: ";
+    cin >> a;
+    while (a>0) {
+        sum+=a%10;
+        a/=10;
+    }
     return 0;
 }
-
-

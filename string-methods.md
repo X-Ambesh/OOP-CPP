@@ -1,5 +1,5 @@
 # String Methods  
-
+---
 ###  1 . `string.length()`
 
 ```c++
@@ -18,6 +18,7 @@ int main() {
 }
 
 ```
+---
 
 ### 2. `string.empty()`
 
@@ -36,10 +37,11 @@ int main() {
     return 0;
 }
 ```
+---
 ### 3.  `String.clear()`
-
+---
 ### 4. `string.append()`
-
+---
 ```c++
 #include <iostream>
 using namespace std;
@@ -52,6 +54,7 @@ int main() {
     return 0;
 }
 ```
+---
 
 ### 5. `string.at(index)`
 
@@ -66,6 +69,7 @@ int main() {
     return 0;
 }
 ```
+---
 6. `string.insert()`
 
 ```c++
@@ -79,7 +83,8 @@ int main() {
     return 0;
 }
 ```
-
+---
 ### 7. `string.find(" ")`
-
+---
 ### 8. `string.erase(beginng_index,ending_index`)
+---

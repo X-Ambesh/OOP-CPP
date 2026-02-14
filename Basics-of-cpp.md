@@ -440,3 +440,97 @@ a % (-b) = a % b
 (-a) % b = -(a % b) 
 ```
 ---
+
+### Type-casting
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cout << "Enter an integer: ";
+    cin >> x;
+    float y = (float)x;
+    cout << "Half of " << x << " is " << y/2 << endl;
+}
+```
+---
+### Hierarchy of operations 
+> `B | O | DM | A | S` # Left to right
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+    int i = 2*3/4;
+    cout << i << endl;
+    return 0;
+}
+// Output : 1 
+```
+---
+
+### ASCII Values
+
+
+ASCII Values |
+---------|
+ a --> 97 |
+ A --> 65 |
+ 0--> 48 |
+
+> To print ASCII Values
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+    char ch;
+    cout << "Enter a character: ";
+    cin >> ch;
+    cout<<(int)ch;
+    return 0;
+}
+```
+
+> Integer to ASCII 
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cout << "Enter a character: ";
+    cin >> x;
+    cout<<(char)x;
+    return 0;
+}
+```
+
+---
+
+### Important things to remember
+
+```c++
+
+#include <iostream>
+using namespace std;
+int main() {
+    cout << 5/2 << endl; // Outputs 2, because both 5 and 2 are integers
+    cout << 5.0/2 << endl; // Outputs 2.5, because 5.0 is a double
+    cout << 5/2.0 << endl; // Outputs 2.5, because 2.0 is a double
+    cout << 5.0/2.0 << endl; // Outputs 2.5, because both 5.0 and 2.0 are doubles
+    return 0;
+}
+```
+
+---
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+   cout << (float)(7/22*(3.14+2)*3/5) << endl;// Output 0
+    return 0;
+}
+```
+---
+

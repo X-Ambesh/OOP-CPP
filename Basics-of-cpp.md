@@ -619,5 +619,22 @@ int main() {
         return 0;
     }
 }
+
+---
+
+### Predict the output
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+    int x=3,y,z;
+    y=x=10; // Right to left
+    z=x<10; // 0 for false and 1 for true
+    cout<<x<<"  "<<y<<"  "<<z; 
+}
+```
+
+---
 ```
 ---

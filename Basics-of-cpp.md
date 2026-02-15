@@ -638,8 +638,6 @@ int main() {
 > Output `10 10 0`
 
 ---
-```
----
 
 ### Continue Statement
 

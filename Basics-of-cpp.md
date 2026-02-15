@@ -532,5 +532,39 @@ int main() {
     return 0;
 }
 ```
+
+---
+
+### find the greatest number among three by using nested if else
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+   int a,b,c;
+   cout << "Enter a number a : ";
+   cin >> a;
+   cout << "Enter a number b : ";
+    cin >> b;
+    cout << "Enter a number c : ";
+    cin >> c;
+    if(a>b){
+        if(a>c)
+            cout << a << " is the greatest number.";
+        else // c>a ,a>b --> c>a>b
+            cout << c << " is the greatest number.";
+    }
+    else{ // b>a
+        if(b>c)
+            cout << b << " is the greatest number.";
+        else // c>b , b>a --> c>b>a
+            cout << c << " is the greatest number.";
+    }
+
+    return 0;
+}
+```
+
+---
 ---
 

@@ -920,5 +920,15 @@ int main(){
 
 ---
 
+### To print address
 
-
+```cpp
+#include <iostream>
+using namespace;
+int main(){
+    int x = 3;
+    int y = 3;
+    cout<<&x<<endl;
+    cout<<&y<<endl;
+}
+```

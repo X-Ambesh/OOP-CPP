@@ -781,5 +781,96 @@ int main() {
 ```
 
 ---
+
+### Functions
+
+> `main()` It cannot be called more than once
+> 
+> `return;` Any statement bellow this will not be executed
+>
+> `int()` We can return value
+> 
+> `void()` We can store value
+
+```cpp
+void sum(int a , int b ){ // (int a , int b) are formal paramters
+    cout<<a+b;
+}
+int main(){
+    sum(67,30) // 67,30 are actual parameters and this is pass by value
+}
+```
+
 ---
+
+### Sum of two numbers 
+```cpp
+#include <iostream>
+using namespace std;
+int sum(int a, int b){
+    return a+b;
+}
+int main(){
+    int a;
+    cout<<"Enter Number a : ";
+    cin>>a;
+    int b;
+    cout<<"Enter Number b : ";
+    cin>>b;
+    cout << sum(a, b);
+    return 0;
+}
+```
+
+---
+
+### Library functions 
+
+Example
+
+>`sqrt()`
+>
+>`max()`
+
+### To find squareroot, cuberoot,min,max,pow
+
+```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    cout << sqrt(4);
+    cout << cbrt(8);
+    cout << min(4,8);
+    cout << max(4,8);
+    cout << pow(2,10);
+}
+```
+
+### Permuntation and combinations
+
+${}^nC_r$ = $\frac{n!}{r!(n-r)!}$
+
+```cpp
+#include <iostream>
+using namespace std;
+int fac(int x){
+    int a = 1;
+    for(int i=1;i<=x;i++){
+        a = a*i;
+    }
+    return a;
+}
+int main(){
+    int n,r;
+    cout <<"Enter n & r :  ";
+    cin>>n>>r;
+    cout << "nCr = " << fac(n)/(fac(r)*fac(n-r)) << endl;
+    return 0;
+}
+```
+
+---
+
+
 

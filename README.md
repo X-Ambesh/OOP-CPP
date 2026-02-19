@@ -1,5 +1,30 @@
 C++  important questions 
 
+### combinations
+
+${}^nC_r$ = $\frac{n!}{r!(n-r)!}$
+
+```cpp
+#include <iostream>
+using namespace std;
+int fac(int x){
+    int a = 1;
+    for(int i=1;i<=x;i++){
+        a = a*i;
+    }
+    return a;
+}
+int main(){
+    int n,r;
+    cout <<"Enter n & r :  ";
+    cin>>n>>r;
+    cout << "nCr = " << fac(n)/(fac(r)*fac(n-r)) << endl;
+    return 0;
+}
+```
+
+---
+
 ### Write a code to print sum of even digits and product of odd digits of a number.
 
 ```c++

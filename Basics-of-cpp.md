@@ -964,3 +964,23 @@ int main(){
 >3
 
 ---
+
+### To access the value of the variable whose address is in the pointer 
+> Using dereference operator (*) operator
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+    int x = 3;
+    int*p = &x;
+    cout<<*p<<endl;
+
+}
+```
+
+>`Output`
+>
+>3
+
+---

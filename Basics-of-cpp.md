@@ -924,11 +924,16 @@ int main(){
 
 ```cpp
 #include <iostream>
-using namespace;
+using namespace std;
 int main(){
     int x = 3;
     int y = 3;
     cout<<&x<<endl;
     cout<<&y<<endl;
-}
 ```
+
+>`Output`
+>0xa7ec3ff93c
+>0xa7ec3ff938
+
+---

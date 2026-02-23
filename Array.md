@@ -60,3 +60,21 @@ int main() {
 ```
 
 ---
+
+#### To find the max number in an array
+
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[] = {67, 27, 12, 97, 66};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int mx = arr[0];
+    for (int i = 1; i < n; i++) {
+        mx = max(mx,arr[i]);
+    }
+    cout << "Max Number in this array is " << mx;
+}
+```
+
+---

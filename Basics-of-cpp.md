@@ -1017,3 +1017,23 @@ int main(){
 >45 12
 
 ---
+
+### To print numbers form 1 to n using recursion
+
+```cpp
+#include <iostream>
+using namespace std;
+void print(int x,int n){
+    if(x>n) return;
+    cout << x<< endl;
+    print(x+1,n);
+}
+int main(){
+    int n;
+    cout << "Enter a number: ";
+    cin >>n;
+    print(1,n);
+}
+```
+
+---

@@ -93,3 +93,36 @@ int main(){
 ```
 
 ---
+
+#### To find transpose of a matrix
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int arry[4][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9},
+        {10, 11, 12}};
+    for (int j = 0; j < 3; j++)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            cout << arry[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+```
+
+>Output:
+
+```Output:
+1 4 7 10 
+2 5 8 11 
+3 6 9 12 
+```
+
+---

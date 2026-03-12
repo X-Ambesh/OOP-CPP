@@ -39,3 +39,35 @@ A language in which the program is divided into multile clases and objects, but 
 e.g. JavaScript, VBScript, etc.
 
 
+#### 1  Polymorphism
+
+To achieve more than one thing from single thing.
+
+1. Operator Overloading
+   
+   - \+ to add and to concatenate in c++
+   - \* to multiply and to repeat in c++
+
+2. function overloading or method overloading
+
+   - same name but different parameters
+   - compile time polymorphism
+  
+#### 2 Data hiding 
+
+- hiding data from outside world
+
+#### 3 Abstraction
+
+  - hiding complexity and showing only necessary details to the user
+  - use the thing without knowing how it works
+  - example:using mobile phone without knowing how it works
+  - make a class for data hiding and for abstraction make class
+   - Data hinding = Class &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Abstraction = Object
+  
+#### 4  Encapsulation
+   Data hiding + Abstraction = Encapsulation
+
+#### 5 Inheritance
+
+   - 

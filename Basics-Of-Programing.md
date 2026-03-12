@@ -78,3 +78,27 @@ A derived class(Child Class) can inherit from a base class(Superclass), which me
 4. Hierarchical Inheritance: Multiple derived classes inherit from a single base class.
 5. Hybrid Inheritance: A combination of two or more types of inheritance.
 
+#### Object
+
+Everything having property and method is called object
+
+- Property is a variable that belongs to an object
+
+- Method is a function that belongs to an object
+
+#### Class
+
+Class is a blueprint for creating objects. It defines a set of properties and methods that the objects created from the class will have.
+
+- Instance is an individual object created from a class. Each instance has its own set of properties and methods
+
+#### There are two types of relationship between classes:
+
+#### Is a relation or inheritance relationship
+Is a relation is a relationship between two classes where one class is a subclass of another class. The subclass inherits the properties and methods of the superclass.
+
+#### Has a relation 
+Has a relation is a relationship between two classes where one class has a property that is an instance of another class. The class that has the property is called the "has a" class, and the class that is the property is called the "is a" class.
+
+
+
